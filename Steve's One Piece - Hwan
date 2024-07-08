@@ -1,0 +1,585 @@
+local SteveOnePieceConCac = Instance.new("ScreenGui")
+
+local Main = Instance.new("Frame")
+
+local Page = Instance.new("TextLabel")
+
+local PageName = Instance.new("TextLabel")
+
+local Left = Instance.new("TextButton")
+
+local Right = Instance.new("TextButton")
+
+local Farm = Instance.new("Frame")
+
+local weapon = Instance.new("TextBox")
+
+local hidesweapon = Instance.new("TextButton")
+
+local ohidesweapon = Instance.new("TextButton")
+
+local Load_weapon = Instance.new("TextButton")
+
+local Equipweapon = Instance.new("TextButton")
+
+local Farmweapon = Instance.new("TextButton")
+
+local Hon = Instance.new("TextLabel")
+
+local Lon = Instance.new("TextLabel")
+
+local Eon = Instance.new("TextLabel")
+
+local Fon = Instance.new("TextLabel")
+
+local TextLabel = Instance.new("TextLabel")
+
+local TextLabel_2 = Instance.new("TextLabel")
+
+local ChangeLog = Instance.new("Frame")
+
+local ChangeLogText = Instance.new("TextLabel")
+
+local red = Color3.new(255,0,0)
+
+local green = Color3.new(0,255,0)
+
+
+
+SteveOnePieceConCac.Name = "Steve One Piece Con Cac"
+
+SteveOnePieceConCac.Parent = game.CoreGui
+
+
+
+Main.Name = "Main"
+
+Main.Parent = SteveOnePieceConCac
+
+Main.BackgroundColor3 = Color3.new(0, 1, 1)
+
+Main.Position = UDim2.new(0.171270728, 0, 0.459459484, 0)
+
+Main.Size = UDim2.new(0, 270, 0, 398)
+
+Main.Selectable = true
+
+Main.Active = true
+
+Main.Draggable = true
+
+
+
+Page.Name = "//FARMING//"
+
+Page.Parent = Main
+
+Page.BackgroundColor3 = Color3.new(0, 0.666667, 1)
+
+Page.BorderSizePixel = 0
+
+Page.Size = UDim2.new(0, 270, 0, 37)
+
+Page.Font = Enum.Font.SourceSans
+
+Page.TextColor3 = Color3.new(0, 0, 0)
+
+Page.Text = "Steve's One Piece - Hwan"
+
+Page.TextScaled = true
+
+Page.TextSize = 14
+
+Page.TextWrapped = true
+
+
+
+PageName.Name = "Page: Farming"
+
+PageName.Parent = Main
+
+PageName.BackgroundColor3 = Color3.new(1, 1, 1)
+
+PageName.BackgroundTransparency = 1
+
+PageName.Position = UDim2.new(0.155555561, 0, 0.0929648206, 0)
+
+PageName.Size = UDim2.new(0, 185, 0, 35)
+
+PageName.Font = Enum.Font.SourceSans
+
+PageName.Text = "Hwan dz s1tg"
+
+PageName.TextColor3 = Color3.new(0, 0, 0)
+
+PageName.TextSize = 20
+
+PageName.TextWrapped = true
+
+
+
+Left.Name = "Left"
+
+Left.Parent = Main
+
+Left.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Left.BackgroundTransparency = 1
+
+Left.Position = UDim2.new(0.0925925821, 0, 0.0929648206, 0)
+
+Left.Size = UDim2.new(0, 31, 0, 31)
+
+Left.Font = Enum.Font.SourceSans
+
+Left.Text = "<"
+
+Left.TextColor3 = Color3.new(1, 0, 0)
+
+Left.TextScaled = true
+
+Left.TextSize = 14
+
+Left.TextWrapped = true
+
+Left.Visible = false
+
+
+
+Right.Name = "Right"
+
+Right.Parent = Main
+
+Right.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Right.BackgroundTransparency = 1
+
+Right.Position = UDim2.new(0.792592585, 0, 0.092964828, 0)
+
+Right.Size = UDim2.new(0, 31, 0, 31)
+
+Right.Font = Enum.Font.SourceSans
+
+Right.Text = ">"
+
+Right.TextColor3 = Color3.new(1, 0, 0)
+
+Right.TextScaled = true
+
+Right.TextSize = 14
+
+Right.TextWrapped = true
+
+
+
+Farm.Name = "Farm"
+
+Farm.Parent = Main
+
+Farm.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Farm.BackgroundTransparency = 1
+
+Farm.Position = UDim2.new(0, 0, 0.180904523, 0)
+
+Farm.Size = UDim2.new(0, 270, 0, 326)
+
+Farm.Visible = true
+
+
+
+weapon.Name = "weapon"
+
+weapon.Parent = Farm
+
+weapon.BackgroundColor3 = Color3.new(1, 1, 1)
+
+weapon.BorderSizePixel = 0
+
+weapon.Position = UDim2.new(0.129629627, 0, 0.036809817, 0)
+
+weapon.Size = UDim2.new(0, 200, 0, 31)
+
+weapon.Font = Enum.Font.SourceSans
+
+weapon.Text = "Ghi tên vũ khí cần farm vào đây!"
+
+weapon.TextColor3 = Color3.new(0, 0, 0)
+
+weapon.TextSize = 14
+
+
+
+hidesweapon.Name = "hidesweapon"
+
+hidesweapon.Parent = Farm
+
+hidesweapon.BackgroundColor3 = Color3.new(1, 1, 1)
+
+hidesweapon.BorderSizePixel = 0
+
+hidesweapon.Position = UDim2.new(0.129629627, 0, 0.171779141, 0)
+
+hidesweapon.Size = UDim2.new(0, 200, 0, 28)
+
+hidesweapon.Font = Enum.Font.SourceSans
+
+hidesweapon.Text = "Discord: _hwan.infors"
+
+hidesweapon.TextColor3 = Color3.new(0, 0, 0)
+
+hidesweapon.TextSize = 14
+
+
+
+ohidesweapon.Name = "hidesweapon"
+
+ohidesweapon.Parent = Farm
+
+ohidesweapon.BackgroundColor3 = blue
+
+ohidesweapon.BorderSizePixel = 0
+
+ohidesweapon.Position = UDim2.new(0.129629627, 0, 0.171779141, 0)
+
+ohidesweapon.Size = UDim2.new(0, 200, 0, 28)
+
+ohidesweapon.Font = Enum.Font.SourceSans
+
+ohidesweapon.Text = "Discord: _hwan.infors"
+
+ohidesweapon.TextColor3 = Color3.new(0, 0, 0)
+
+ohidesweapon.TextSize = 14
+
+ohidesweapon.Visible = false
+
+
+
+Load_weapon.Name = "Load_weapon"
+
+Load_weapon.Parent = Farm
+
+Load_weapon.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Load_weapon.BorderSizePixel = 0
+
+Load_weapon.Position = UDim2.new(0.129629627, 0, 0.300613493, 0)
+
+Load_weapon.Size = UDim2.new(0, 200, 0, 28)
+
+Load_weapon.Font = Enum.Font.SourceSans
+
+Load_weapon.Text = "Discord: _hwan.infors"
+
+Load_weapon.TextColor3 = Color3.new(0, 0, 0)
+
+Load_weapon.TextSize = 14
+
+
+
+Equipweapon.Name = "Equipweapon"
+
+Equipweapon.Parent = Farm
+
+Equipweapon.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Equipweapon.BorderSizePixel = 0
+
+Equipweapon.Position = UDim2.new(0.129629627, 0, 0.426380366, 0)
+
+Equipweapon.Size = UDim2.new(0, 200, 0, 28)
+
+Equipweapon.Font = Enum.Font.SourceSans
+
+Equipweapon.Text = "Auto Equip"
+
+Equipweapon.TextColor3 = Color3.new(0, 0, 0)
+
+Equipweapon.TextSize = 14
+
+
+
+Farmweapon.Name = "Farmweapon"
+
+Farmweapon.Parent = Farm
+
+Farmweapon.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Farmweapon.BorderSizePixel = 0
+
+Farmweapon.Position = UDim2.new(0.129629627, 0, 0.552147269, 0)
+
+Farmweapon.Size = UDim2.new(0, 200, 0, 28)
+
+Farmweapon.Font = Enum.Font.SourceSans
+
+Farmweapon.Text = "Auto Click"
+
+Farmweapon.TextColor3 = Color3.new(0, 0, 0)
+
+Farmweapon.TextSize = 14
+
+
+
+ChangeLog.Name = "ChangeLog"
+
+ChangeLog.Parent = Main
+
+ChangeLog.BackgroundColor3 = Color3.new(1, 1, 1)
+
+ChangeLog.BackgroundTransparency = 1
+
+ChangeLog.Position = UDim2.new(0, 0, 0.180904523, 0)
+
+ChangeLog.Size = UDim2.new(0, 270, 0, 326)
+
+ChangeLog.Visible = false
+
+
+
+ChangeLogText.Name = "ChangeLogText"
+
+ChangeLogText.Parent = ChangeLog
+
+ChangeLogText.BackgroundColor3 = Color3.new(1, 1, 1)
+
+ChangeLogText.BackgroundTransparency = 1
+
+ChangeLogText.BorderSizePixel = 0
+
+ChangeLogText.Size = UDim2.new(0, 270, 0, 326)
+
+ChangeLogText.Font = Enum.Font.SourceSans
+
+ChangeLogText.TextColor3 = Color3.new(1, 0, 0)
+
+ChangeLogText.TextSize = 20
+
+ChangeLogText.Text = "-25/12/2018 V1.0.0: Add Function Farm Weapon very fash :D"
+
+ChangeLogText.TextWrapped = true
+
+ChangeLogText.TextXAlignment = Enum.TextXAlignment.Left
+
+ChangeLogText.TextYAlignment = Enum.TextYAlignment.Top
+
+
+
+Right.MouseButton1Down:connect(function()
+
+Left.Visible = true
+
+Right.Visible = false
+
+Farm.Visible = false
+
+ChangeLog.Visible = true
+
+Page.Text = "Steve's One Piece - Hwan"
+
+PageName.Text = "Page: Changelog"
+
+end)
+
+
+
+Left.MouseButton1Down:connect(function()
+
+Right.Visible = true
+
+Left.Visible = false
+
+Farm.Visible = true
+
+ChangeLog.Visible = false
+
+Page.Text = "Steve's One Piece - Hwan"
+
+PageName.Text = "Page: Farming"
+
+end)
+
+
+
+hidesweapon.MouseButton1Down:connect(function()
+
+hidesweapon.BackgroundColor3 = blue
+
+hidesweapon.Text = "Discord: _hwan.infors"
+
+hidesweapon.Visible = false
+
+ohidesweapon.Visible = true
+
+local asword = game.Players.LocalPlayer.Backpack
+
+_G.asword = true
+
+while _G.asword do
+
+wait()
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
+
+if v.Name == weapon.Text then
+
+v.Parent = game.Players.LocalPlayer
+
+end
+
+end
+
+end
+
+end)
+
+
+
+ohidesweapon.MouseButton1Down:connect(function()
+
+hidesweapon.Visible = true
+
+ohidesweapon.Visible = false
+
+local asword = game.Players.LocalPlayer.Backpack
+
+_G.asword = false
+
+while _G.asword do
+
+wait()
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
+
+if v.Name == weapon.Text then
+
+v.Parent = game.Players.LocalPlayer
+
+end
+
+end
+
+end
+
+end)
+
+
+
+Equipweapon.MouseButton1Down:connect(function()
+
+Equipweapon.BackgroundColor3 = green
+
+Equipweapon.Text = "Auto Equip: Bật"
+
+local csword = game.Players.LocalPlayer.Backpack
+
+_G.csword = true
+
+while _G.csword do 
+
+wait()
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
+
+if v.Name ==weapon.Text then 
+
+v.Parent = game.Players.LocalPlayer.Character
+
+end
+
+end
+
+end
+
+wait(5)
+
+_G.csword = false
+
+end)
+
+
+
+Load_weapon.MouseButton1Down:connect(function()
+
+Load_weapon.Text = "Discord: _hwan.infors"
+
+Load_weapon.BackgroundColor3 = blue
+
+_G.asword = false
+
+local lsword = game.Players.LocalPlayer.Backpack
+
+_G.lsword = true
+
+while _G.lsword do
+
+wait()
+
+for i,v in pairs(game.Players.LocalPlayer:GetChildren()) do 
+
+if v.Name == weapon.Text then
+
+v.Parent = game.Players.LocalPlayer.Backpack
+
+end
+
+end
+
+end
+
+wait(5)
+
+_G.lsword = false
+
+end)
+
+
+
+Farmweapon.MouseButton1Down:connect(function()
+
+Farmweapon.Text = "Auto Click: Bật"
+
+Farmweapon.BackgroundColor3 = green
+
+local acsword = game.Players.LocalPlayer.Backpack
+
+_G.acsword = true
+
+while _G.acsword do
+
+wait()
+
+for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+
+    if v.Name == weapon.Text then v:Activate() end
+
+    end
+
+    end
+
+end)
+
+
+
+local h = Instance.new("Hint",workspace)
+
+while true do
+
+h.Text = "Gui make by Hwan"
+
+wait(5)
+
+h.Text = "Script by Hwan"
+
+wait(5)
+
+h.Text = "Có lỗi gì inbox admin qua Discord?"
+
+wait(5)
+
+h.Text = "Discord: _hwan.infors"
+
+wait(5)
+
+end
